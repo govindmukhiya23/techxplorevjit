@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechXplore VJIT</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>TechXplore VJIT</h1>
+            </div>
+            <div class="hamburger" id="hamburger">
+                &#9776; <!-- Hamburger Icon -->
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+        </div>
+    </nav>
+    
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to TechXplore VJIT</h2>
+            <p>Empowering Tomorrow’s Innovators</p>
+            <a href="#join" class="btn">Join Us</a>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>TechXplore VJIT is the premier student-run technology club at Vidya Jyothi Institute of Technology
+                (VJIT). Our mission is to provide students with hands-on learning experiences and industry
+                collaborations in the fields of software testing, ethical hacking, automation, and much more. Through
+                partnerships with leading companies and expert-led workshops, we aim to bridge the gap between classroom
+                knowledge and real-world applications.</p>
+        </div>
+    </section>
+
+    <!-- Events and Workshops -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Events & Workshops</h2>
+            <div id="eventCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="event upcoming">
+                            <img src="path/to/image1.jpg" alt="Ethical Hacking Bootcamp" class="event-image">
+                            <span class="badge">Upcoming</span>
+                            <h3>Ethical Hacking Bootcamp</h3>
+                            <p>Learn the fundamentals of hacking ethically, with practical applications in network security.</p>
+                           
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="event">
+                            <img src="images/bg2 (1).jpg" alt="Automation Testing Workshop" class="event-image">
+                            <h3>Automation Testing Workshop</h3>
+                            <p>Master tools like Selenium and Appium to automate software testing and improve efficiency.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="event upcoming">
+                            <img src="images/bg2 (2).jpg" alt="Cybersecurity Awareness" class="event-image">
+                            <span class="badge">Upcoming</span>
+                            <h3>Cybersecurity Awareness</h3>
+                            <p>Get equipped with knowledge about today’s biggest security threats and how to protect against them.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="event">
+                            
+                            <h3>Hackathons & Competitions</h3>
+                            <img src="path/to/image4.jpg" alt="Hackathons & Competitions" class="event-image">
+                            <p>Test your skills, collaborate with teams, and solve real-world problems.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#eventCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#eventCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Our Team -->
+    <section id="teams" class="teams">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="images/govind1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>President</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Vice President</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Vice President</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Vice President</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Vice President</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Vice President</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 3">
+                    <h3>Emily Johnson</h3>
+                    <p>Head of Marketing</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/govind1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>President</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 4">
+                    <h3>Michael Brown</h3>
+                    <p>Head of Development</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Centered Button -->
+            <div class="button-container">
+                <a href="teams.html" class="btn">More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Collaborations -->
+    <section id="collaborations" class="collaborations">
+        <div class="container">
+            <h2>Company Collaborations</h2>
+            <p>We partner with industry-leading companies to provide students with real-world project experience and
+                valuable industry insights.</p>
+            <div class="company-logos">
+                <img src="https://via.placeholder.com/150" alt="Company 1">
+                <img src="https://via.placeholder.com/150" alt="Company 2">
+                <img src="https://via.placeholder.com/150" alt="Company 3">
+                <img src="https://via.placeholder.com/150" alt="Company 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Resources -->
+    <!-- <section id="blog" class="blog">
+        <div class="container">
+            <h2>Blog & Resources</h2>
+            <div class="blog-grid">
+                <div class="blog-post card">
+                    <img src="https://via.placeholder.com/300x200" alt="Ethical Hacking">
+                    <h3>Introduction to Ethical Hacking</h3>
+                    <p class="blog-excerpt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus hic deserunt velit explicabo quia fuga nisi commodi, asperiores iusto officiis earum doloribus, consectetur eligendi? Unde labore ipsum voluptates velit nihil ab nulla!
+                    </p>
+                    <p class="blog-content" style="display: none;">
+                        Harum modi ab, amet adipisci molestiae rem cum soluta itaque reiciendis, laudantium ipsa quis consequuntur porro quasi! Enim tempora aperiam corporis dolore reiciendis, quod exercitationem, delectus unde vitae eos provident praesentium architecto earum magnam necessitatibus sit sapiente accusantium vel incidunt est inventore voluptatem iure et impedit! Molestias dignissimos vitae vel temporibus nam nisi perferendis inventore doloribus earum a consectetur tempora hic ullam incidunt, animi numquam quibusdam libero voluptatum!
+                    </p>
+                    <div class="button-container">
+                        <a href="blogs/blog1.html" class="btn">More</a>
+                    </div>
+                </div>
+                <div class="blog-post card">
+                    <img src="https://via.placeholder.com/300x200" alt="Automation Testing Tools">
+                    <h3>Top Automation Testing Tools in 2024</h3>
+                    <p>A comprehensive guide to the best automation testing tools available this year.</p>
+                    <div class="button-container">
+                        <a href="blogs/blog2.html" class="btn">More</a>
+                    </div>
+                </div>
+                <div class="blog-post card">
+                    <img src="https://via.placeholder.com/300x200" alt="Cybersecurity Trends">
+                    <h3>Cybersecurity Trends to Watch</h3>
+                    <p>Stay updated with the latest trends and advancements in cybersecurity.</p>
+                    <div class="button-container">
+                        <a href="blogs/blog3.html" class="btn">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        Centered Button -->
+        <!-- <div class="button-container">
+            <a href="blogs.html" class="btn">More</a>
+        </div>
+    </section> -->
+
+    <!-- Join Us -->
+    <section id="join" class="join">
+        <div class="container">
+            <h2>Join TechXplore VJIT</h2>
+            <p>Become a part of a vibrant community of tech enthusiasts and industry professionals. Enhance your skills,
+                work on real projects, and build your professional network.</p>
+            <form id="join-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Why do you want to join?" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="gallery-title">Photo Gallery</h2>
+            <div class="gallery-slider">
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openModal('images/bg2 (1).jpg')">
+                        <img src="images/bg2 (1).jpg" alt="Gallery Image 1">
+                    </div>
+                    <div class="gallery-item" onclick="openModal('images/bg.jpg')">
+                        <img src="images/bg.jpg" alt="Gallery Image 2">
+                    </div>
+                    <div class="gallery-item" onclick="openModal('images/bg.jpg')">
+                        <img src="images/bg.jpg" alt="Gallery Image 3">
+                    </div>
+                    <div class="gallery-item" onclick="openModal('images/pic.jpeg')">
+                        <img src="images/pic.jpeg" alt="Gallery Image 4">
+                    </div>
+                    <div class="gallery-item" onclick="openModal('https://via.placeholder.com/300x200')">
+                        <img src="https://via.placeholder.com/300x200" alt="Gallery Image 5">
+                    </div>
+                    <div class="gallery-item" onclick="openModal('https://via.placeholder.com/300x200')">
+                        <img src="https://via.placeholder.com/300x200" alt="Gallery Image 6">
+                    </div>
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal Structure -->
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Contact Us -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="contact-name" name="contact-name" placeholder="Your Name" required>
+                <input type="email" id="contact-email" name="contact-email" placeholder="Your Email" required>
+                <textarea id="contact-message" name="contact-message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TechXplore VJIT. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
